@@ -10,8 +10,8 @@
 // ******************************************************************************************
 
 // get all data in form and return object
-function getFormData() {
-    var elements = document.getElementById("gform").elements; // all form elements
+function getFormData(formName) {
+    var elements = document.getElementById(formName).elements; // all form elements
     var fields = Object.keys(elements).map(function (k) {
         if (elements[k].name !== undefined) {
             return elements[k].name;
@@ -52,7 +52,7 @@ function handleFormSubmit(event, target, saving, thank) {  // handles form submi
     document.getElementById(target).style.display = 'none'; // hide form        
     document.getElementById(saving).style.display = 'block'; // show 'saving...' message
     
-    var data = getFormData();         // get the values submitted in the form
+    var data = getFormData(target);         // get the values submitted in the form
     var url = event.target.action;  //
     var xhr = new XMLHttpRequest();
     xhr.open('POST', url);
