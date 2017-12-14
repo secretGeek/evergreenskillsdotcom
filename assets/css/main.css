@@ -2636,7 +2636,7 @@
 		/* Section/Article */
 
 			header br {
-				display: none;
+				xdisplay: none;
 			}
 
 			header.major {
@@ -2660,7 +2660,7 @@
 			}
 
 				.wrapper.special br {
-					display: none;
+					xdisplay: none;
 				}
 
 				.wrapper.style1 {
@@ -2838,7 +2838,7 @@
 				padding-bottom: 1px;
 			}
 
-			#navButton {
+			#xnavButton {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2856,7 +2856,7 @@
 				z-index: 10001;
 			}
 
-				#navButton .toggle {
+				#xnavButton .toggle {
 					text-decoration: none;
 					height: 60px;
 					left: 0;
@@ -2868,7 +2868,7 @@
 					outline: 0;
 				}
 
-					#navButton .toggle:before {
+					#xnavButton .toggle:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
 						font-family: FontAwesome;
@@ -2877,7 +2877,7 @@
 						text-transform: none !important;
 					}
 
-					#navButton .toggle:before {
+					#xnavButton .toggle:before {
 						color: #fff;
 						content: '\f0c9';
 						font-size: 1em;
@@ -2891,7 +2891,7 @@
 						z-index: 1;
 					}
 
-					#navButton .toggle:after {
+					#xnavButton .toggle:after {
 						background: rgba(163, 169, 170, 0.75);
 						border-radius: 2px;
 						content: '';
@@ -2902,7 +2902,7 @@
 						width: 60px;
 					}
 
-			#navPanel {
+			#xnavPanel {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2931,7 +2931,7 @@
 				padding: 0.25em 0.75em 1em 0.75em;
 			}
 
-				#navPanel .link {
+				#xnavPanel .link {
 					border: 0;
 					border-top: solid 1px rgba(255, 255, 255, 0.05);
 					color: inherit;
@@ -2942,54 +2942,54 @@
 					text-decoration: none;
 				}
 
-					#navPanel .link.depth-0 {
+					#xnavPanel .link.depth-0 {
 						font-weight: 900;
 					}
 
-					#navPanel .link:first-child {
+					#xnavPanel .link:first-child {
 						border-top: 0;
 					}
 
-				#navPanel .indent-1 {
+				#xnavPanel .indent-1 {
 					display: inline-block;
 					width: 1em;
 				}
 
-				#navPanel .indent-2 {
+				#xnavPanel .indent-2 {
 					display: inline-block;
 					width: 2em;
 				}
 
-				#navPanel .indent-3 {
+				#xnavPanel .indent-3 {
 					display: inline-block;
 					width: 3em;
 				}
 
-				#navPanel .indent-4 {
+				#xnavPanel .indent-4 {
 					display: inline-block;
 					width: 4em;
 				}
 
-				#navPanel .indent-5 {
+				#xnavPanel .indent-5 {
 					display: inline-block;
 					width: 5em;
 				}
 
-			body.navPanel-visible #page-wrapper {
+			body.xnavPanel-visible #page-wrapper {
 				-moz-transform: translateX(275px);
 				-webkit-transform: translateX(275px);
 				-ms-transform: translateX(275px);
 				transform: translateX(275px);
 			}
 
-			body.navPanel-visible #navButton {
+			body.xnavPanel-visible #xnavButton {
 				-moz-transform: translateX(275px);
 				-webkit-transform: translateX(275px);
 				-ms-transform: translateX(275px);
 				transform: translateX(275px);
 			}
 
-			body.navPanel-visible #navPanel {
+			body.xnavPanel-visible #xnavPanel {
 				-moz-transform: translateX(0);
 				-webkit-transform: translateX(0);
 				-ms-transform: translateX(0);
@@ -3100,7 +3100,7 @@
 			}
 
 				.wrapper.special br {
-					display: none;
+					xdisplay: none;
 				}
 
 				.wrapper.style1 {
@@ -3139,7 +3139,7 @@
 					}
 
 					#banner .inner br {
-						display: none;
+						xdisplay: none;
 					}
 
 		/* Main */
@@ -3179,7 +3179,7 @@
 
 		/* Off-Canvas Navigation */
 
-			#navButton .toggle:before {
+			#xnavButton .toggle:before {
 				top: 8px;
 				left: 8px;
 				width: 50px;
@@ -3187,7 +3187,7 @@
 				line-height: 34px;
 			}
 
-			#navButton .toggle:after {
+			#xnavButton .toggle:after {
 				top: 8px;
 				left: 8px;
 				width: 50px;
