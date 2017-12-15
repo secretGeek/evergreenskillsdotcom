@@ -1564,6 +1564,25 @@
 
 	}
 
+	
+	#gform2 {
+		min-width:320px;
+		max-width:60%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	@media screen and (max-width: 480px) {
+	/*TODO:*/
+		#gform2 {
+			min-width:220px;
+			max-width:60%;
+		}
+		xinput[type="submit"]{
+			min-width: 100px;
+		}
+	}
+	
 /* Basic */
 
 	body {
@@ -2558,6 +2577,10 @@
 
 	@media screen and (max-width: 1680px) {
 
+		xinput[type="submit"]{
+			xmin-width: 39em;
+		}
+
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3038,7 +3061,7 @@
 			}
 
 			p {
-				text-align: justify;
+				text-align: center;
 			}
 
 		/* Section/Article */
