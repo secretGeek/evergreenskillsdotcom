@@ -1,0 +1,185 @@
+﻿<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Tree background: 	https://unsplash.com/photos/1WsXO474EDU
+-->
+<html lang="en">
+	<head>
+		<title>
+Reading List
+		</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="manifest" href="manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+				 <style>
+        #thankyou_message,
+		#saving_message,
+		#thankyou_message2,
+		#saving_message2 {
+            display: none;
+        }
+		h2 {
+			letter-spacing:5px;
+		}
+		h2 span
+		{
+			display:block;
+			font-size:0.9em;
+			letter-spacing:0.3em;
+			font-weight:300;
+			line-height:1.4em;
+			padding-bottom:0.4em;
+		}
+		img.portrait {
+			max-width:calc(100% - 30px);
+		}
+		header.special.normie { text-align: left;}
+		.normie h1 {
+			font-size:3em;
+		}
+    </style>
+
+	</head>
+	<body class="page">
+		<div id="page-wrapper">
+
+			<!-- Header 
+				<header id="header" class="alt dark" style='color:#888'>
+					<h1 id="logo"><a href="index.html">Evergreen Skills <span>for Software Developers</span></a></h1>
+				</header> -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Evergreen Skills <span>for Software Developers</span></a></h1>
+					<nav id="nav">
+						<ul>
+							<li class="current"><a href="index.html">Welcome</a></li>
+							<li class="submenu">
+								<a href="#">Layouts</a>
+								<ul>
+									<li><a href="left-sidebar.html">Left Sidebar</a></li>
+									<li><a href="right-sidebar.html">Right Sidebar</a></li>
+									<li><a href="no-sidebar.html">No Sidebar</a></li>
+									<li><a href="contact.html">Contact</a></li>
+									<li class="submenu">
+										<a href="#">Submenu</a>
+										<ul>
+											<li><a href="#">Dolore Sed</a></li>
+											<li><a href="#">Consequat</a></li>
+											<li><a href="#">Lorem Magna</a></li>
+											<li><a href="#">Sed Magna</a></li>
+											<li><a href="#">Ipsum Nisl</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#" class="button special">Sign Up</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<article id="main">
+
+					<header class="special container normie">
+<span class='icon fa-book'></span>
+<ul>
+<li>The Checklist Manifesto</li>
+<li>Crucial Conversations</li>
+<li>Drive</li>
+<li>Rework</li>
+<li>Outliers</li>
+<li>The Happiness Advantage</li>
+<li>Ego is the Enemy</li>
+<li>Resonate</li>
+<li>Linchpin</li>
+<li>Mindset</li>
+<li>Essentialism</li>
+</ul>
+
+		</header>
+
+			<!-- CTA -->
+				<section id="cta">
+
+					<header>
+						<h2>Interested in learning more?</h2>
+						<p>Sign up to be notified when the book is first available</p>
+					</header>
+
+						<footer>
+							<form id="gform2" method="POST" action="https://script.google.com/macros/s/AKfycbwbZ7wgMBJKlI7BsmMcu5sZ8E6reK7vCUa6y8aOC_dfixVKYOw/exec">
+								<div class="row">
+									<div class="12u 12u(mobile)">
+										<input type="text" id="name" name="name" placeholder="Name" />
+									</div>
+								</div>
+								<div class="row">
+									<div class="12u 12u(mobile)">
+										<input type="email" id="email" name="email" placeholder="Email" />
+									</div>
+								</div>
+								<div class="row">
+									<div class="12u 12u(mobile)">
+										<input type="submit" class="special" value="Join now" style='min-width:100px;width:calc(100%);max-width:220px'/>
+										
+									</div>
+								</div>
+							</form>
+							<div id="saving_message2"><p>Storing your precious name and email.<p></div>
+							<div id="thankyou_message2"><p>Thank you for signing up.<p></div>
+						</footer>
+
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+                    <!-- 
+					<ul class="icons">
+						<li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
+						<li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>
+					</ul> -->
+
+					<ul class="copyright">
+						<li>&copy; <a href='https://jcooney.net/'>Joseph Cooney</a> and <a href='http://secretGeek.net'>Leon Bambrick</a></li><li>Design: <a href="http://html5up.net">HTML5 UP/Twenty</a></li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<!--<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollgress.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<!--<script src="assets/js/main.js"></script>-->
+			<script src="assets/js/form-handler.js"></script>
+	</body>
+</html>
